@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+}
+ 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+ 
+h1 {
+    color: gold;
+    text-align: center;
+}
+ 
+.digit1 {
+    font-size: 130px;
+    color: green;
+    
+}
+.digit2{
+    font-size: 130px;
+    color: aqua;
+}
+.digit3{
+    font-size: 130px;
+    color: yellow;
+}
+.digit4{
+    font-size: 130px;
+    color: blueviolet;
+}
+ 
+.txt {
+    font-size: 30px;
+    color: #fffcd6;
+}
+ 
+#buttons {
+    margin-top: 50px;
+}
+ 
+.btn {
+    width: 200px;
+    height: 100px;
+    padding: 10px 15px;
+    margin: 0px 20px;
+    border-radius: 2rem;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 40px;
+    transition: 0.5s; 
+    color: white;
+    font-weight: 500;
+}
+
+ 
+#start {
+    background-color: green;
+}
+
+#stop {
+    background-color: blue;
+}
+ 
+#reset {
+    background-color: gold;
+}
